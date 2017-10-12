@@ -1,0 +1,32 @@
+fa:
+  button_create_new_repository: ساختن مخزن جدید
+
+  label_repository_format: مخزن
+  label_repository_url: نشانی مخزن
+
+  field_scm: SCM
+  field_github_url: نشانی Github
+  field_extra_register_hook: ثبت یک قلاب (hook) برای واکشی تثبیت‌ها
+
+  text_github_repository_note_new: "(https://github.com/ یا فقط یک نام برای ساختن مخزن جدید)"
+  text_github_credentials_note: برای دست‌رسی به مخازن خصوصی مورد نیاز است
+  text_github_register_hook_note: نیازمند دست‌رسی راه‌بری به مخزن است
+  text_cannot_be_changed_later: در آینده نمی‌تواند تغییر کند.
+  text_cannot_be_used_redmine_auth: احراز هویت پایه‌ای پی‌گیر نمی‌تواند با این نام مخزن استفاده شود.
+  text_scm_creator_not_configured_warning: مدیریت مخازن کد نصب شده،  اما تنظیم نشده است.
+  text_scm_repository_created_by_scm: مخزنِ روی هارد فقط برای پی‌گیر ساخته شده است. با حذف این مورد، آن مخزن بلااستفاده می‌شود.
+  text_scm_repository_destroy_confirmation: آیا می‌خواهید مخزن را از هارد هم حذف کنید؟
+
+  warning_github_hook_registration_failed: ثبت قلاب (hook) خدمات Github ناموفق بود
+
+  activerecord:
+    errors:
+      messages:
+        should_be_of_format_local: باید در قالب ‪"%{repository_format}"‬وارد شود.
+        already_exists: قبلا ساخته شده است
+        scm_not_supported: این SCM پشتیبانی نمی‌شود
+        repository_exists_for_identifier: مخزن برای این شناسه پروژه از قبل وجود دارد
+        scm_repositories_maximum_count_exceeded: تعداد مخازن از  حداکثر تعداد (%{max}) بیش‌تر است
+        scm_local_repositories_denied: افزودن مخزن محلی توسط راه‌بر ممنوع شده است
+        scm_only_creator: از کلید "ساختن مخزن جدید" برای ساختن/افزودن یک مخزن استفاده کنید
+        scm_repository_creation_failed: ساختن مخزن با خطا مواجه شد
